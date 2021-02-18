@@ -1,0 +1,13 @@
+- user,
+name is "insberr"
+age is 16
+email is none
+
+- message,
+content is "Hello World"
+server_id is 1
+>- server_details,
+id is 1
+name is "insberr's made up server"
+
+~ get_server_data with (server_id) { print "Server Info: @in.message.server_details" }
